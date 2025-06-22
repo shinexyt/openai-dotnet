@@ -271,7 +271,7 @@ public partial class ChatClient
         CreateChatCompletionOptions(messages, ref options, stream: true);
 
         using BinaryContent content = options;
-        return CompleteChatStreamingRawAsync(content, cancellationToken.ToRequestOptions());
+        return CompleteChatStreamingRawAsync(content, cancellationToken.ToRequestOptions(streaming: true));
     }
 
     /// <summary>
@@ -296,7 +296,7 @@ public partial class ChatClient
         CreateChatCompletionOptions(messages, ref options, stream: true);
 
         using BinaryContent content = options;
-        return CompleteChatStreamingRaw(content, cancellationToken.ToRequestOptions());
+        return CompleteChatStreamingRaw(content, cancellationToken.ToRequestOptions(streaming: true));
     }
 
     /// <summary>
