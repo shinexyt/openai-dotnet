@@ -13,7 +13,7 @@
     <Title>OpenAI .NET SDK (shinexyt fork)</Title>
 
     <VersionPrefix>2.2.0</VersionPrefix>
-    <VersionSuffix>beta.4.1</VersionSuffix>
+    <VersionSuffix>beta.4.2</VersionSuffix>
 
     <TargetFrameworks>net8.0;net6.0;netstandard2.0</TargetFrameworks>
     <LangVersion>latest</LangVersion>
