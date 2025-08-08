@@ -12,7 +12,7 @@
     <PackageId>Shinexyt.OpenAI</PackageId>
     <Title>OpenAI .NET SDK (shinexyt fork)</Title>
 
-    <VersionPrefix>2.2.0</VersionPrefix>
+    <VersionPrefix>2.3.0</VersionPrefix>
     <VersionSuffix></VersionSuffix>
 
     <TargetFrameworks>net8.0;netstandard2.0</TargetFrameworks>
