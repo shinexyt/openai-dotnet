@@ -1,5 +1,13 @@
 # OpenAI .NET API library
 
+> **🚀 Fork Enhancement**  
+> This fork adds an enhanced streaming method: `AsyncCollectionResult<BinaryData> CompleteChatStreamingAsync(BinaryContent content, CancellationToken cancellationToken = default)`  
+> This enables "binary in, binary out" streaming mode for better compatibility with other LLM providers.
+> 
+> **🚀 分支增强**  
+> 该分支版本新增了增强的流式方法：`AsyncCollectionResult<BinaryData> CompleteChatStreamingAsync(BinaryContent content, CancellationToken cancellationToken = default)`  
+> 以便于在stream模式下实现binary in, binary out，增强与其他大语言模型的兼容性。
+
 [![NuGet stable version](https://img.shields.io/nuget/v/openai.svg)](https://www.nuget.org/packages/OpenAI) [![NuGet preview version](https://img.shields.io/nuget/vpre/openai.svg)](https://www.nuget.org/packages/OpenAI/absoluteLatest)
 
 The OpenAI .NET library provides convenient access to the OpenAI REST API from .NET applications.
